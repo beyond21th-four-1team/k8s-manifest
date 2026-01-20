@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: boot-container
-          image: seeking11/argocd-pipe:15
+          image: seeking11/argocd-pipe:16
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
